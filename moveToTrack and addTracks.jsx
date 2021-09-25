@@ -7,11 +7,12 @@ qeSequence.addTracks(10, vanillaSequence.videoTracks.numTracks, 10, vanillaSeque
     // argument 1, num video tracks to add
     // argument 2, track to add them after (zero-based index)
     // argument 3, num audio tracks to add
-    // argument 4, track to add them after (zero-based index)
-    // number of submixes to add
-    // submix type (see below)
-    // position to add submix (zero-based index)
-
+    // argument 4, audio track type (see below)
+    // argument 5, track to add them after (zero-based index)
+    // argument 6, number of submixes to add
+    // argument 7, submix type (see below)
+    // argument 8, position to add submix (zero-based index)
+    
 
     // submix type guide
     // 0: Mono
